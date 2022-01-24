@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="jquery-3.6.0.js"></script>
+  <script src="scripts.js"></script>
+  <title>Form Letter</title>
+</head>
+<body>
+  <form id="userinfo">
+    <input id="name" type="text" onfocus="this.value=''" value="Full Name"><br>
+    <input id="address" type="text" onfocus="this.value''" value="Street Address"><br>
+    <input id="city" type="text" onfocus="this.value''" value="City"><br>
+    <input id="state" type="text" onfocus="this.value''" value="State">><br>
+    <input id="zip" type="text" onfocus="this.value''" value="Zip"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <div class="hide">
+    <p class="name"></p>
+    <p class="address"></p>
+    <p class="city"><span class="state"></span><span class="zip"></span></p>
+    <p id="gap">Dear <span class="name"></span>,</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur aperiam consectetur. Fugiat illum distinctio dicta dignissimos cupiditate vitae velit adipisci modi explicabo. Quod facilis ratione obcaecati eius quasi debitis.</p>
+    <p>-Steve.</p>
+  </div>
+</body>
+</html>

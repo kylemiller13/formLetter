@@ -1,0 +1,15 @@
+body {
+  width:600px;
+  padding: 0px;
+}
+.hide {
+  display:none;
+}
+
+p {
+  margin:2px;
+}
+
+#gap {
+  margin-top:20px;
+}
